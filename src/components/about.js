@@ -9,7 +9,7 @@ import ProfileImage from '../img/gabrieladorf.svg'
 const ProfileImageWrapper = styled.div`
   border: none;
   border-bottom: 1px solid #e0e0e0;
-  background-image: url(${ProfileImage});
+  background-image: url();
   background-size: cover;
   background-position: 20% 22%;
   height: 280px;
@@ -35,20 +35,18 @@ export default class About extends React.Component {
           <ColorBar color="#FFA6A6" />
           <p>
             <strong>
-              Hi. I'm Gabriel, an interface and UX designer based
-              in&nbsp;Berlin.
+              Hi. I'm Tudor, a software engineer based 
+              in&nbsp;London.
             </strong>
           </p>
           <p>
-            I studied business & engineering at the Technical University and
-            soon after graduation rediscovered my passion for design.
+            I am a software engineer with a passion for business.
+            I build and delivery high-performance web applications using Agile methodologies and Lean principles. 
           </p>
           <p style={{ marginBottom: 0 }}>
-            Since then I have always tried to balance the understanding of the
-            technical aspects of creating products with the aesthetic and
-            usability requirements from a user's point of view. Currently I am
-            working with <Link to="/lifetime">LifeTime</Link>, raising a child
-            and learning how to&nbsp;code.
+            Although my heart lies with ReactJs, I find myself doing more DevOps work,
+            creating infrastructure and pipelines to deliver the products in the hands of the users. 
+            Recently I've taken a huge interest in the blockchain and everything related. 
           </p>
         </Column>
       </Row>

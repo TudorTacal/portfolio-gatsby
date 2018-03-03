@@ -112,8 +112,8 @@ export default class Hero extends React.Component {
       <HeroSection>
         <FrontPageHeader>
           <LogoWrapper>
-            <Name>Gabriel Adorf</Name>
-            <Role>Product Design</Role>
+            <Name>Tudor Tacal</Name>
+            <Role>Software Craftsman</Role>
           </LogoWrapper>
           <SocialIconWrapper>
             <SocialLink href="https://twitter.com/gabdorf">

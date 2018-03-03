@@ -65,7 +65,7 @@ const ArticleHeader = ({ props }) => ({
       <div>
         <ArticleHeaderSection>
           <LogoLink to="/">
-            <Logo>Gabriel Adorf</Logo>
+            <Logo>Tudor Tacal</Logo>
           </LogoLink>
           <SocialIconWrapper>
             <SocialLink href="https://twitter.com/gabdorf">

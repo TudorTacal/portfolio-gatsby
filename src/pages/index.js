@@ -79,14 +79,14 @@ export default class App extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Gabriel Adorf</title>
+          <title>Tudor Tacal</title>
           <meta name="description" content="Gabriel Adorf's projects" />
           <meta name="keywords" content="design, ux, ui, product, graphic, health, climbing, app, interface, experience, festival, techno, code" />
           <meta property="og:image" content="https://www.gabrieladorf.com/static/kellerkindCover.14f87246.jpg" />
           <meta property="og:description" content="Gabriel Adorf's projects" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://gabrieladorf.com" />
-          <meta property="og:title" content="Gabriel Adorf" />
+          <meta property="og:title" content="Tudor Tacal" />
 
           <link
             rel="apple-touch-icon"
@@ -117,11 +117,11 @@ export default class App extends React.Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'projects'}>
           <Section>
-            <Projects />
+            {/* <Projects /> */}
           </Section>
         </ScrollableAnchor>
         <Section>
-          <Writing />
+          {/* <Writing /> */}
         </Section>
         {/*        ds<Section>
           <Photo />

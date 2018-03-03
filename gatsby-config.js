@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gabriel Adorf`
+    title: `Tudor Tacal`
   },
   plugins: [
     `gatsby-transformer-yaml`,
@@ -25,11 +25,11 @@ module.exports = {
         plugins: []
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-107072121-1',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-107072121-1',
+    //   },
+    // },
   ]
 }
