@@ -68,7 +68,7 @@ const ArticleHeader = ({ props }) => ({
             <Logo>Tudor Tacal</Logo>
           </LogoLink>
           <SocialIconWrapper>
-            <SocialLink href="https://twitter.com/gabdorf">
+            <SocialLink href="https://twitter.com/Tudor_Tacal">
               <SocialIcon
                 width="34"
                 height="32"
@@ -81,7 +81,7 @@ const ArticleHeader = ({ props }) => ({
                 />
               </SocialIcon>
             </SocialLink>
-            <SocialLink href="https://dribbble.com/gabdorf">
+            <SocialLink href="https://www.instagram.com/tudortacal/">
               <SocialIcon
                 width="32"
                 height="32"
@@ -94,7 +94,7 @@ const ArticleHeader = ({ props }) => ({
                 />
               </SocialIcon>
             </SocialLink>
-            <SocialLink href="mailto:gabriel.adorf@gmail.com">
+            <SocialLink href="mailto:tudortacal@gmail.com">
               <SocialIcon
                 width="32"
                 height="32"
