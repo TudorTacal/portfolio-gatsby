@@ -6,7 +6,6 @@ const size = 180
 const Image = styled.div`
   background: white;
   /*box-shadow: 0px 10px 15px 3px rgba(0,0,0,0.05);*/
-  border: 1px solid rgba(0, 0, 0, 0.1);
   flex: 0 0 ${size}px;
   height: ${size}px;
   margin-right: 40px;

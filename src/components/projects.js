@@ -9,6 +9,7 @@ import Project from '../components/project'
 import KellerkindLogo from '../img/kellerkindlogo'
 import LifeTimeLogo from '../img/lifetimelogo'
 import BamLogo from '../img/bamlogo'
+import ProcessFlowsLogo from '../img/processFlowsLogo';
 
 const Projects = () => ({
   render() {
@@ -26,6 +27,12 @@ const Projects = () => ({
             abstract="A digital health solution facilitating medical data exchange."
           />
           <Project
+            logo={ProcessFlowsLogo()}
+            url="/processflows"
+            title="ProcessFlows"
+            abstract="A visualisation tools designed for lawyers to improve their proccesses"
+          />
+          {/* <Project
             logo={KellerkindLogo()}
             url="/kellerkind"
             title="Kellerkind"
@@ -36,7 +43,7 @@ const Projects = () => ({
             url="/bam"
             title="Bäm"
             abstract="Climbing products and other stuff that gives you the bäm effect."
-          />
+          /> */}
         </Column>
       </Row>
     )

@@ -117,7 +117,7 @@ export default class App extends React.Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'projects'}>
           <Section>
-            {/* <Projects /> */}
+            <Projects />
           </Section>
         </ScrollableAnchor>
         <Section>

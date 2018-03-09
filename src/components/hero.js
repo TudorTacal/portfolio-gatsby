@@ -113,7 +113,7 @@ export default class Hero extends React.Component {
         <FrontPageHeader>
           <LogoWrapper>
             <Name>Tudor Tacal</Name>
-            <Role>Software Craftsman</Role>
+            <Role>Software Development & Delivery</Role>
           </LogoWrapper>
           <SocialIconWrapper>
           <SocialLink href="https://www.linkedin.com/in/tudor-tacal-8b1400a4/">
@@ -169,7 +169,7 @@ export default class Hero extends React.Component {
             </SocialLink>
           </SocialIconWrapper>
         </FrontPageHeader>
-        <Spirograph />
+        {/* <Spirograph /> */}
         <ArrowWrapper>
           <ArrowCenter>
             <ArrowLink href="#about">
