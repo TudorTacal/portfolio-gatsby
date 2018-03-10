@@ -169,7 +169,7 @@ export default class Hero extends React.Component {
             </SocialLink>
           </SocialIconWrapper>
         </FrontPageHeader>
-        {/* <Spirograph /> */}
+        <Spirograph />
         <ArrowWrapper>
           <ArrowCenter>
             <ArrowLink href="#about">

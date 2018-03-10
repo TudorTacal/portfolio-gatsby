@@ -10,6 +10,7 @@ import KellerkindLogo from '../img/kellerkindlogo'
 import LifeTimeLogo from '../img/lifetimelogo'
 import BamLogo from '../img/bamlogo'
 import ProcessFlowsLogo from '../img/processFlowsLogo';
+import MyReadsLogo from '../img/myReadsLogo';
 
 const Projects = () => ({
   render() {
@@ -26,24 +27,19 @@ const Projects = () => ({
             title="LifeTime"
             abstract="A digital health solution facilitating medical data exchange."
           />
+           <Project
+            logo={MyReadsLogo()}
+            url="/myreads"
+            title="MyReads"
+            abstract=" My reads is a React application that allows a user to categorize books in 3 different shelves"
+          />
           <Project
             logo={ProcessFlowsLogo()}
             url="/processflows"
             title="ProcessFlows"
             abstract="A visualisation tools designed for lawyers to improve their proccesses"
           />
-          {/* <Project
-            logo={KellerkindLogo()}
-            url="/kellerkind"
-            title="Kellerkind"
-            abstract="A social event company organizing two open air festivals with 15.000 yearly event visitors north of munich."
-          />
-          <Project
-            logo={BamLogo()}
-            url="/bam"
-            title="Bäm"
-            abstract="Climbing products and other stuff that gives you the bäm effect."
-          /> */}
+
         </Column>
       </Row>
     )
