@@ -5,11 +5,12 @@ import { Page, Row, Column } from 'hedron'
 
 import ColorBar from '../components/colorbar'
 import ProfileImage from '../img/gabrieladorf.svg'
+import AboutLogo from '../img/AboutLogo.svg'
 
 const ProfileImageWrapper = styled.div`
   border: none;
   border-bottom: 1px solid #e0e0e0;
-  background-image: url();
+  background-image: url(${AboutLogo});
   background-size: cover;
   background-position: 20% 22%;
   height: 280px;
