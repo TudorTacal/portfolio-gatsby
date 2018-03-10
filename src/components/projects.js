@@ -31,7 +31,43 @@ const Projects = () => ({
             logo={MyReadsLogo()}
             url="/myreads"
             title="MyReads"
-            abstract=" My reads is a React application that allows a user to categorize books in 3 different shelves"
+            abstract=" My reads is a React application that allows a user to categorize books in 3 different shelves."
+          />
+           <Project
+            logo={""}
+            url="/readable"
+            title="Readable"
+            abstract="Readable is a content and comment web app build with React and Redux."
+          />
+           <Project
+            logo={""}
+            url="/udacicards"
+            title="UdaciCards"
+            abstract="The UdaciCards project is a mobile application, designed for iOS, that allows users to study collections of flashcards."
+          />
+          <Project
+            logo={""}
+            url="/cabanabelvedere"
+            title="CabanaBelvedere"
+            abstract="A presentation website for a tourists cabin in a spectacular natural place that is also my family business."
+          />
+           <Project
+            logo={""}
+            url="/workflows"
+            title="Workflows"
+            abstract="Complex visualisation tools to improve a lawyers workflow like editable checklist, related links container & navigational flowcharts."
+          />
+           <Project
+            logo={""}
+            url="/curtauk"
+            title="CURTAUK"
+            abstract="A completion statement complex calculator build as a microservice, using React & Redux, .NETCORE 2.0 & AWS"
+          />
+          <Project
+            logo={""}
+            url="/redactor"
+            title="REDACTOR"
+            abstract="A redaction toold build for lawyers leveraging machine learning and AI. Front end app React & Redux, .NETCORE 2.0 backend, JAVA api, deployed on AWS."
           />
           <Project
             logo={ProcessFlowsLogo()}

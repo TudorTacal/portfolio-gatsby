@@ -11,7 +11,7 @@ const Bam = ({ data }) => ({
     console.log(data)
     return (
       <div>
-        <Header title={data.markdownRemark.frontmatter.title} />
+        <Header title={"hello"} />
         <ContentWrapper>
           <h2>Intro</h2>
           <p>
