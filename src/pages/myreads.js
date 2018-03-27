@@ -11,28 +11,24 @@ import FullSizeImage from '../components/article/fullsizeimage'
 
 import KellerkindCoverImage from '../img/articles/kellerkind/kellerkindCover.jpg'
 
-const CabanaBelvedere = () => ({
+const MyReads= () => ({
     render() { 
         return (
             <div>
-                <Header title="Cabana Belvedere" />
+                <Header title="My Reads" />
                 <ContentWrapper>
                     <p style={{fontStyle: "italic"}}>under construction</p>
                     <p>
-                    This is a presentation web site I've created for my family business
-                    in Colibita, Romania. We own and manage a touristic villa so I am trying
-                    to bring my parents and this small business up to date, in the digital world.
-                    </p>
-                    <p>
-                    See the project live @ www.cabanabelvederecolibita.ro 
+                    For more details about this project please visit the 
+                    following Github link https://github.com/TudorTacal/reactnd-myreads 
                     </p>
                     <p style={{fontStyle: "italic"}}>
                     A full description coming soon.
-                    </p>
+                     </p>
                 </ContentWrapper>
             </div>
         )
     }
 }) 
 
-export default CabanaBelvedere;
+export default MyReads

@@ -31,7 +31,7 @@ const Projects = () => ({
             logo={MyReadsLogo()}
             url="/myreads"
             title="MyReads"
-            abstract=" My reads is a React application that allows a user to categorize books in 3 different shelves."
+            abstract="My reads is a React application that allows a user to categorize books in 3 different shelves: Currently Reading, Want to Read, Read."
           />
            <Project
             logo={""}
@@ -45,37 +45,30 @@ const Projects = () => ({
             title="UdaciCards"
             abstract="The UdaciCards project is a mobile application, designed for iOS, that allows users to study collections of flashcards."
           />
-          <Project
-            logo={""}
-            url="/cabanabelvedere"
-            title="CabanaBelvedere"
-            abstract="A presentation website for a tourists cabin in a spectacular natural place that is also my family business."
-          />
            <Project
-            logo={""}
-            url="/workflows"
-            title="Workflows"
-            abstract="Complex visualisation tools to improve a lawyers workflow like editable checklist, related links container & navigational flowcharts."
-          />
-           <Project
-            logo={""}
-            url="/curtauk"
-            title="CURTAUK"
-            abstract="A completion statement complex calculator build as a microservice, using React & Redux, .NETCORE 2.0 & AWS"
-          />
-          <Project
             logo={""}
             url="/redactor"
             title="REDACTOR"
-            abstract="A redaction toold build for lawyers leveraging machine learning and AI. Front end app React & Redux, .NETCORE 2.0 backend, JAVA api, deployed on AWS."
+            abstract="A redaction tool built for law firms leveraging machine learning and AI. Front end app React & Redux, .NETCORE 2.0 backend, JAVA api, deployed on AWS."
           />
           <Project
             logo={ProcessFlowsLogo()}
             url="/processflows"
             title="ProcessFlows"
-            abstract="A visualisation tools designed for lawyers to improve their proccesses"
+            abstract="A visualisation tool designed for junior lawyers to navigate through their complex proccesses."
           />
-
+          <Project
+            logo={""}
+            url="/cabanabelvedere"
+            title="CabanaBelvedere"
+            abstract="A presentation website for a touristic villa, set in a spectacular natural place that is also my family's business."
+          />
+           <Project
+            logo={""}
+            url="/workflows"
+            title="Workflows"
+            abstract="Complex visualisation tools like editable checklist, related links container & navigational flowcharts meant to improve a lawyers workflow."
+          />
         </Column>
       </Row>
     )

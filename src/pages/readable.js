@@ -16,6 +16,16 @@ const Readable = () => ({
         return (
             <div>
                 <Header title="Readable" />
+                <ContentWrapper>
+                    <p style={{fontStyle: "italic"}}>under construction</p>
+                    <p>
+                    For more details about this project please visit the 
+                    following Github link https://github.com/TudorTacal/udacityND-Readable 
+                    </p>
+                    <p style={{fontStyle: "italic"}}>
+                    A full description coming soon.
+                    </p>
+                </ContentWrapper>
             </div>
         )
     }
