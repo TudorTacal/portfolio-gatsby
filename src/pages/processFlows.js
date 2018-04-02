@@ -20,8 +20,8 @@ const ProcessFlows = () => ({
                 <ContentWrapper>
                     <p style={{fontStyle: "italic"}}>under construction</p>
                     <p>
-                    Contrained by the confidential nature of the work I've done
-                    at Lexis Nexis, unfortunately I can't post any screenshots of the app
+                    Constrained by the confidential nature of the work done
+                    at Lexis Nexis, unfortunately, I can't post any screenshots of the app
                     or the code at this time. But I will try to use words as best as I can.
                     </p>
                     <p>

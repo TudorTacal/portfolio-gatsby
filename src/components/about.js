@@ -41,13 +41,14 @@ export default class About extends React.Component {
             </strong>
           </p>
           <p>
-            I am a software engineer with a passion for business.
-            I build and delivery high-performance web applications using Agile methodologies and Lean principles. 
+            As a software engineer and certified Scrum Master I build and deliver
+            web applications using a micro-service architecture with cutting edge
+            technologies like React, .Net Core and AWS.  
           </p>
           <p style={{ marginBottom: 0 }}>
-            Although my heart lies with ReactJs, I find myself doing more DevOps work,
-            creating infrastructure and pipelines to deliver the products in the hands of the users. 
-            Recently I've taken a huge interest in the blockchain and everything related. 
+            Recently I've taken a huge interest in the Blockchain and the surrounding 
+            environment. Other things that appeal to me are Wing Chun, table tennis
+            and currently I am trying out intermittent fasting.
           </p>
         </Column>
       </Row>

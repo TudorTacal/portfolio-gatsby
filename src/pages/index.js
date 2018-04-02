@@ -87,26 +87,26 @@ export default class App extends React.Component {
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://gabrieladorf.com" />
           <meta property="og:title" content="Tudor Tacal" />
-
+        {/* add favicon.ico in static to load in on the page and delete/add to public/static as well */}
           <link
-            rel="apple-touch-icon"
+            rel=""
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href=""
           />
           <link
-            rel="icon"
+            rel=""
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href=""
           />
           <link
-            rel="icon"
+            rel=""
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href=""
           />
           <link rel="manifest" href="/manifest.json" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <link rel="mask-icon" href="" color="#5bbad5" />
           <meta name="theme-color" content="#ffffff" />
         </Helmet>
         <Hero />

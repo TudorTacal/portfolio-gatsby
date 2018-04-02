@@ -21,12 +21,12 @@ const Projects = () => ({
           <ColorBar color="#A6FFD7" />
         </Column>
         <Column sm={12} md={9} lg={7}>
-          <Project
+          {/* <Project
             logo={LifeTimeLogo()}
             url="/lifetime"
             title="LifeTime"
             abstract="A digital health solution facilitating medical data exchange."
-          />
+          /> */}
            <Project
             logo={MyReadsLogo()}
             url="/myreads"
@@ -52,10 +52,16 @@ const Projects = () => ({
             abstract="A redaction tool built for law firms leveraging machine learning and AI. Front end app React & Redux, .NETCORE 2.0 backend, JAVA api, deployed on AWS."
           />
           <Project
-            logo={ProcessFlowsLogo()}
+            logo={""}
             url="/processflows"
             title="ProcessFlows"
             abstract="A visualisation tool designed for junior lawyers to navigate through their complex proccesses."
+          />
+          <Project
+            logo={""}
+            url="/curtauk"
+            title="CurtaUK"
+            abstract="A completion statement complex calculator designed for lawyers."
           />
           <Project
             logo={""}
